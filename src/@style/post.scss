@@ -1,0 +1,51 @@
+
+.category_blog{
+  font-weight: 500;
+  font-size: 15px;
+  color: #0655fa;
+}
+
+.category_report{
+  font-weight: 500;
+  font-size: 15px;
+  color: #fc2c42;
+}
+
+.category_webinar{
+  font-weight: 500;
+  font-size: 15px;
+  color: #f1d172;
+}
+
+.widget_photo img{
+  border-radius: 5px;
+}
+
+.widget_content_title{
+  font-weight: 500;
+}
+
+.widget_read_toggle a{
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  transition: 0.3s;
+}
+
+.widget_read_toggle a:hover{
+  color: #0055fc;
+  border-color: #0055fc;
+}
+
+.widget_start{
+  align-items: flex-start!important;
+}
+
+.widget_center{
+  align-items: center!important;
+}
+
+.widget_end{
+  align-items: flex-end!important;
+}

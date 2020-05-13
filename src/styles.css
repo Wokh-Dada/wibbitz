@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "@style/post.scss";
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+.titles{
+  margin: 40px 0;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.container_update{
+  max-width: 1200px;
+  margin: auto;
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+.container{
+  max-width: 1024px;
+}
+}
+
+@media (min-width: 1200px) {
+}
+
+
+

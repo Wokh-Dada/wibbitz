@@ -1,0 +1,45 @@
+.newlistiner_section{
+  background-color: black;
+  height: 370px;
+  border-radius: 5px;
+  margin-top: 50px;
+  color: white;
+}
+
+.subscribe {
+  height: 100%;
+  align-items: center;
+}
+
+.newlistener_title{
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.2;
+}
+
+.newlistiner_subtitle{
+  padding-right: 98px;
+  padding-top: 10px;
+  font-size: 18px;
+  color: #959595d4;
+}
+
+.newlistiner_subtitle a{
+  color: #959595d4;
+  border-bottom: 1px solid #959595d4;
+}
+
+.form-control {
+  background-color: hsla(0,0%,100%,0);
+  height: 60px;
+  padding-left: 40px;
+  outline: none;
+}
+
+.btn_newlistener{
+  background-color: #0055fc;
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+  width: 140px;
+}
