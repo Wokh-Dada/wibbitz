@@ -1,0 +1,13 @@
+<app-news></app-news>
+<app-new-posts></app-new-posts>
+<app-popular-resources></app-popular-resources>
+<app-events></app-events>
+<app-new-listener *ngFor="let item of newlistner"
+                  title="{{item.title}}"
+                  subtitle="{{item.subtitle}}"
+                  linkText="{{item.linkText}}"
+                  btnText="{{item.btnText}}"
+                  theme="none"
+>
+
+</app-new-listener>

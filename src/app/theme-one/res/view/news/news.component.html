@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="row news">
+    <div class="col-lg-7 col-12">
+      <div class="main_img"
+           [ngStyle]="{ 'backgroundImage': 'url(https://images.unsplash.com/photo-1589400369397-3363f6afeada?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80)' } ">
+<!--                <img src="../../../../../assets/img/news/news_main_photo.jpg"/>-->
+      </div>
+      <div>
+        <div class="category_blog">
+          Blog Post
+        </div>
+        <div class="news_section_title_block">
+          How to opimize your Facebook & Instagram video ads for succes
+        </div>
+        <div class="news_section_subtitle_block">
+          Instagram and Facebook video ads qre extremely popular among marketers these days. Not only are they more
+          engaging and entertaining, they`re loved by many...
+        </div>
+        <div class="text-center text-lg-left">
+          <button class="btn btn-primary new_section_btn">
+            Read Story
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-5 col-12 mt-lg-0 mt-5">
+      <aside class="news_right_widget">
+        <div class="row">
+          <div class="col-12" *ngFor="let item of post">
+            <app-sidebar category="{{item.category}}" title="{{item.title}}" btnText="{{item.btnText}}"
+                         theme="{{item.category}}"></app-sidebar>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</div>
+

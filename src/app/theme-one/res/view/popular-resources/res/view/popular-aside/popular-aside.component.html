@@ -1,0 +1,36 @@
+<div class="row">
+  <div class="col-md-4 col-12">
+    <div class="widget_photo">
+      <img src="https://via.placeholder.com/191x180?text=Text" width="100%" alt="">
+    </div>
+  </div>
+  <div class="col">
+    <div class="row h-100">
+      <div class="col-12">
+        <div class="widget_start">
+          <div class="widget_content">
+            <div [ngClass]="{category_report: theme === 'Report', category_blog: theme === 'Blog Post', category_webinar: theme === 'Webinar'}">
+              {{category}}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="widget_center">
+          <div class="widget_content_title">
+            {{title}}
+          </div>
+        </div>
+      </div>
+      <div class="col-12 align-self-end">
+        <div class="widget_end">
+          <div class="widget_read_toggle">
+            <a href="#">
+              {{btnText}}
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

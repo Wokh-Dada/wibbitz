@@ -1,0 +1,190 @@
+.head_blog_section{
+  font-weight: 500;
+}
+
+.title_blog_section{
+  margin-top: 20px;
+}
+
+.title_blog_section h1{
+  font-weight: 900;
+}
+
+.author {
+  padding: 20px 0;
+}
+
+.author h3{
+  padding-top: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.author p{
+  font-size: 1rem;
+  color: #9b9b9b;
+}
+
+.blog_posts_img{
+  max-width: 960px;
+  margin: auto;
+}
+
+.blog_content{
+  max-width: 760px;
+  margin: auto;
+  font-weight: 500;
+}
+
+.blog_content p{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/*********************/
+.book_prewiev_container{
+  width: 1140px;
+  position: relative;
+  right: 333px;
+  background-color: black;
+  height: 320px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.book_prewiev{
+  color: white;
+  max-width: 760px;
+  margin: auto;
+  float: right;
+}
+
+.book_prewiev_titles{
+  padding: 0 20px;
+}
+
+.book_prewiev_title{
+  padding-top: 35px;
+  padding-right: 90px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.book_prewiev_subtitle{
+  font-weight: 400;
+  padding-right: 90px;
+  padding-top: 20px;
+  font-size: 18px;
+  color: white;
+}
+
+.book_prewiev_btn{
+  padding: 7px;
+  background-color: #0056fb;
+  border-radius: 10px;
+  color: white;
+}
+
+.book_img img{
+  height: 100%;
+  width: 100%;
+}
+
+.content_heading{
+  margin: 40px 0;
+}
+
+.citate{
+  border-left: 3px solid black;
+  padding-left: 49px;
+  text-align: justify;
+}
+
+.border-radius{
+  border-radius: 10px;
+}
+
+.social_contact{
+  text-align: center;
+}
+
+.author_img{
+  display: inline-block;
+}
+
+.author_img img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.author_name_work{
+  padding-left: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.author_name{
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.social_link{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0 0.7rem;
+  border-radius: 50%;
+  background-color: #eeeeee;
+  line-height: 40px;
+  text-align: center;
+}
+
+.social_link a{
+  color: #9b9b9b;
+  font-size: 18px;
+}
+
+.social_contact_text{
+  display: inline-block;
+}
+
+.social_contact_icons{
+  display: inline-block;
+}
+
+/*****************/
+
+.content_video{
+  max-width: 100%;
+}
+
+@media (min-width: 576px) {
+  .head_blog_section{
+    max-width: 680px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (max-width: 992px) {
+  .social_contact {
+    padding: 60px 0;
+    text-align: right !important;
+  }
+  .book_prewiev_container {
+    max-width: 1140px;
+  }
+
+}
+
+
+
+@media (min-width: 1200px) {
+
+}

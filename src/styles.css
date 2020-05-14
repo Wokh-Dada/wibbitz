@@ -7,6 +7,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.none{
+  display: none;
+}
+
 .titles{
   margin: 40px 0;
   font-weight: bold;
@@ -16,6 +20,11 @@
 .container_update{
   max-width: 1200px;
   margin: auto;
+}
+
+a{
+  text-decoration: inherit;
+  color: inherit;
 }
 
 @media (min-width: 576px) {

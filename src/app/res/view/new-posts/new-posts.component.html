@@ -1,0 +1,14 @@
+<section class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="titles">
+          New Blog Posts
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-12" *ngFor="let item of post">
+        <app-new-single-post category="{{item.category}}" title="{{item.title}}" btnText="{{item.btnText}}"></app-new-single-post>
+      </div>
+    </div>
+  </div>
+</section>
