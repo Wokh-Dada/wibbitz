@@ -1,9 +1,10 @@
 <header class="container-fluid">
-  <div class="container_update">
+  <div class="container_update d-flex align-items-center">
     <div class="row main__menu">
       <div class="col-auto">
         <a href="#" class="navbar-brand">
-          <img src="https://48vo7843c3543dkn9cvt8sl1-wpengine.netdna-ssl.com/wp-content/uploads/2019/12/logo.svg" class="logo" alt=""/>
+          <img src="https://48vo7843c3543dkn9cvt8sl1-wpengine.netdna-ssl.com/wp-content/uploads/2019/12/logo.svg"
+               class="logo" alt=""/>
         </a>
       </div>
       <div class="col d-flex justify-content-lg-center justify-content-end">
@@ -30,6 +31,22 @@
                 </div>
               </li>
             </ul>
+
+            <div (click)="toggleOnlyImportant()">
+              <a routerLink="/themetwo" routerLinkActive="active" class="nav-link" *ngIf="themeComplite; else themeComplited">
+                <i class="fas fa-toggle-off pl-1"></i>
+                theme_1
+              </a>
+              <ng-template #themeComplited>
+                <a routerLink="/" routerLinkActive="active" class="nav-link">
+                  <i class="fas fa-toggle-on pl-1"></i>
+                  theme_2
+                </a>
+              </ng-template>
+
+
+            </div>
+
           </div>
         </nav>
       </div>

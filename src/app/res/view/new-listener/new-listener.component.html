@@ -14,9 +14,12 @@
       </div>
       <div class="col-lg-6 col-12 px-5">
         <div class="newlistiner_form_email">
-          <form  class="form">
-            <div  class="input-group">
-              <input type="text" placeholder="Enter work email" class="form-control rounded">
+          <form class="form">
+            <div class="input-group">
+              <input type="text"
+                     placeholder="Enter work email"
+                     class="form-control rounded"
+                     [ngClass]="{newlistiner_input: theme === 'theme', none: theme === 'none'}">
               <div class="input-group-append">
                 <button type="submit" class="btn btn_newlistener">
                   {{btnText}}
@@ -24,7 +27,7 @@
               </div>
             </div>
           </form>
-          <div [ngClass]="{newlistiner_subtitle_input: theme === 'theme', none: theme === 'none'}" >
+          <div [ngClass]="{newlistiner_subtitle_input: theme === 'theme', none: theme === 'none'}">
             <span><i class="fas fa-bolt"></i> 6145 people</span> are reading this newsletter every week
           </div>
         </div>

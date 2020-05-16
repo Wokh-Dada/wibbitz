@@ -12,6 +12,13 @@ export class HeaderComponent implements OnInit {
     {linkName: 'Reports'},
     {linkName: 'Costumer Stories'}
   ];
+  themeComplite = false;
+  getOnlythemeComplite() {
+    return this.themeComplite;
+  }
+  toggleOnlyImportant() {
+    this.themeComplite = !this.themeComplite;
+  }
   constructor() { }
 
   ngOnInit(): void {

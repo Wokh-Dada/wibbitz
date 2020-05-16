@@ -43,3 +43,19 @@
   font-weight: 500;
   width: 140px;
 }
+
+.newlistiner_subtitle_input{
+  font-size: 15px;
+  padding-top: 25px;
+  color: #a8a8a8;
+}
+
+.newlistiner_subtitle_input span{
+  color: #fff;
+}
+
+.newlistiner_input{
+  border: 0;
+  border-bottom: 1px solid gray;
+}
+

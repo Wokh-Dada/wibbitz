@@ -1,3 +1,9 @@
+.widget_photo{
+  height: 285px;
+  width: 100%;
+  background-size: cover;
+}
+
 .titles{
   margin: 60px 0 40px 0;
 }
