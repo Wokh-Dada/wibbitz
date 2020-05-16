@@ -9,7 +9,7 @@
 .corp_info {
   font-weight: 500;
   font-size: 20px;
-  padding: 0px 20px 0 0;
+  padding: 0 20px 0 0;
 }
 
 .corp_address {
@@ -33,7 +33,13 @@
 .social_link a{
   color: #9b9b9b;
   font-size: 18px;
+  transition: 0.5s;
 }
+
+.social_link a:hover{
+  color: #0056fb;
+}
+
 
 .title_links {
   font-weight: 600;

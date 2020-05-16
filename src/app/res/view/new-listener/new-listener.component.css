@@ -59,3 +59,21 @@
   border-bottom: 1px solid gray;
 }
 
+.newlistiner_title_padding{
+  padding-right: 40px;
+}
+
+@media (max-width: 576px) {
+  .btn_newlistener {
+    width: 100px;
+  }
+}
+
+@media (min-width: 768px) {  }
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {
+}
+
+

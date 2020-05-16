@@ -10,7 +10,7 @@ export class NewListenerComponent implements OnInit {
   @Input() subtitle: string;
   @Input() linkText: string;
   @Input() btnText: string;
-  @Input() theme: 'theme' | 'none';
+  @Input() theme: 'theme' | 'none' | 'padding';
   constructor() { }
 
   ngOnInit(): void {
