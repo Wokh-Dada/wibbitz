@@ -19,6 +19,14 @@ export class HeaderComponent implements OnInit {
   toggleOnlyImportant() {
     this.themeComplite = !this.themeComplite;
   }
+  toggleMobileMenu(){
+    const x = document.getElementById('Mytopnav');
+    if (x.className === 'topnav'){
+      x.className += ' responsive';
+    }else{
+      x.className = 'topnav';
+    }
+  }
   constructor() { }
 
   ngOnInit(): void {

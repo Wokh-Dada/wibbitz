@@ -23,8 +23,8 @@
   </div>
   <div class="blog_posts">
     <div class="foreword_heading">
-      <div class="blog_posts_img mb-5">
-        <img class="border-radius" src="https://via.placeholder.com/960x500?text=Picture" width="100%" alt="">
+      <div class="blog_posts_img mb-5"
+           [ngStyle]="{ 'backgroundImage': 'url(https://via.placeholder.com/960x500?text=Text)'}">
       </div>
       <div class="blog_content">
         <div class="social_links_themeTwo">
@@ -194,7 +194,9 @@
           </p>
         </div>
         <div class="content_heading">
-          <img class="border-radius" src="https://via.placeholder.com/680x360?text=Picture" width="100%" alt="">
+          <div class="two_glava border-radius" [ngStyle]="{'backgroundImage': 'url(https://via.placeholder.com/680x360?text=Picture)'}">
+
+          </div>
         </div>
         <div class="content_heading">
           <h3>
@@ -234,7 +236,9 @@
           unde vel vero!
         </p>
         <div class="content_heading">
-          <img class="border-radius" src="https://via.placeholder.com/680x360?text=Picture" width="100%" alt="">
+          <div class="two_glava border-radius" [ngStyle]="{'backgroundImage': 'url(https://via.placeholder.com/680x360?text=Picture)'}">
+
+          </div>
         </div>
         <div class="content_heading">
           <h3>
@@ -281,7 +285,8 @@
           vero! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         </p>
         <div class="content_heading">
-          <img class="border-radius" src="https://via.placeholder.com/680x360?text=Picture" width="100%" alt="">
+          <div class="two_glava border-radius" [ngStyle]="{'backgroundImage': 'url(https://via.placeholder.com/680x360?text=Picture)'}">
+          </div>
         </div>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam consectetur dignissimos doloribus
@@ -292,8 +297,7 @@
           <div class="row subscribe py-5">
             <div class="col-lg-6 col-12">
               <div class="author_block">
-                <div class="author_img">
-                  <img class="border-radius" src="https://via.placeholder.com/104x104?text=Picture" width="100%" alt="">
+                <div class="author_img" [ngStyle]="{'backgroundImage': 'url(https://via.placeholder.com/104x104?text=Picture)'}">
                 </div>
                 <div class="author_name_work">
                   <div class="author_name">

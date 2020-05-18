@@ -16,6 +16,7 @@ import {NewSinglePostComponent} from './res/view/new-single-post/new-single-post
 import { SidebarComponent } from './theme-one/res/view/news/res/view/sidebar/sidebar.component';
 import { PopularAsideComponent } from './theme-one/res/view/popular-resources/res/view/popular-aside/popular-aside.component';
 import { BlogComponent } from './theme-two/res/view/blog/blog.component';
+import { HeaderSecondComponent } from './header-second/header-second.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { BlogComponent } from './theme-two/res/view/blog/blog.component';
     NewSinglePostComponent,
     SidebarComponent,
     PopularAsideComponent,
-    BlogComponent
+    BlogComponent,
+    HeaderSecondComponent
   ],
   imports: [
     BrowserModule,
